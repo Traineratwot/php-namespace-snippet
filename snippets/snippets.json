@@ -1,0 +1,21 @@
+{
+	"namespace": {
+		"prefix": "namespace",
+		"body": [
+			"namespace ${TM_FILEPATH/((.*)\\localhost.)|(.php)//gi};",
+			"$0"
+
+		],
+		"description": "namespace dir"
+	},
+	"namespace2": {
+		"prefix": "<?php",
+		"body": [
+			"<?php",
+			"namespace ${TM_FILEPATH/((.*)\\localhost.)|(.php)//gi};",
+			"$0"
+
+		],
+		"description": "namespace dir"
+	}
+}

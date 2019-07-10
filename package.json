@@ -1,0 +1,23 @@
+{
+    "name": "php-namespace-snippet",
+    "displayName": "php namespace snippet",
+    "description": "generate namespace wich file dir",
+    "publisher": "traineratwot",
+    "repository":"",
+    "version": "0.0.1",
+    "icon": "",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
